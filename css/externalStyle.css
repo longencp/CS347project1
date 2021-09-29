@@ -1,10 +1,11 @@
+
 header {
     display: flex;
     background-color: rgb(236, 157, 11);
     color: rgb(44, 113, 136);
     flex-direction: row;
-
     align-items: center;
+    width: 100%;
 }
 a:link {
     color: rgb(94, 12, 94);
@@ -16,7 +17,9 @@ h1 {
     text-align: center;
     padding: 15px;
 }
-
+h1, h2, h3 {
+    font-family: sans-serif; 
+}
 .container {
     padding: 15px;
     display: flex;
@@ -27,4 +30,21 @@ h1 {
 .nav {
     padding: 15px;
 }
+/*
+* TODO create a hamburger menu when the width gets below 850px
+*/
+@media(max-width: 850px) {
+    body {
+        background-color: purple;
+    }
+}
+img {
+    border-radius: 10%;
+    animation-name: animation;
+    animation-duration: 5s;
+  }
+    @keyframes animation {
+        from { border-radius: 100%;}
+        to { border-radius: 10%;}
+    }
 
