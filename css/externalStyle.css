@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    background-color: rgb(236, 157, 11);
+    color: rgb(44, 113, 136);
+    flex-direction: row;
+
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+
+}
+
