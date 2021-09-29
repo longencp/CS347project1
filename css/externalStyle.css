@@ -6,7 +6,12 @@ header {
 
     align-items: center;
 }
-
+a:link {
+    color: rgb(94, 12, 94);
+}
+a:visited {
+    color: rgb(94, 12, 94);
+}
 h1 {
     text-align: center;
     padding: 15px;
@@ -17,5 +22,9 @@ h1 {
     display: flex;
     flex-direction: row;
 
+}
+
+.nav {
+    padding: 15px;
 }
 
