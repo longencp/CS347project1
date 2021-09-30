@@ -1,0 +1,3 @@
+fav.jpg : https://www.flickr.com/photos/mag3737/4036930399/
+small-group.jpg: https://www.pexels.com/photo/group-of-people-studying-together-5676744/
+large-group.jpg: https://www.pexels.com/photo/grayscale-photo-of-people-raising-their-hands-1666816/
