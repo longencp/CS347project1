@@ -1,0 +1,12 @@
+img {
+    border-radius: 10%;
+    animation-name: animation;
+    animation-duration: 5s;
+  }
+    @keyframes animation {
+        from { border-radius: 100%;}
+        to { border-radius: 10%;}
+    }
+figcaption {
+    font-size: 8px;
+}
