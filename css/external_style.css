@@ -33,6 +33,9 @@ img {
 .nav {
     padding: 15px;
 }
+.nav:hover {
+    background-color: lightgray;
+}
 body {
     margin: 0;
     padding: 10px;
